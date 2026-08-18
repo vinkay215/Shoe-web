@@ -9,7 +9,7 @@
   .stage{width:100%;min-height:100vh;background:#fff;overflow:hidden}
   .wrap{padding:24px clamp(20px,3.3vw,52px) 0;max-width:none;margin:0}
 
-  .nav{height:82px;background:#f2f2f4;border-radius:24px;display:flex;align-items:center;gap:14px;padding:10px 14px 10px 26px;text-transform:uppercase;box-shadow:0 8px 24px rgba(0,0,0,.025)}
+  .nav{height:82px;background:#fff;border-radius:24px;display:flex;align-items:center;gap:14px;padding:10px 14px 10px 26px;text-transform:uppercase;box-shadow:0 8px 24px rgba(0,0,0,.025)}
   .brand{font-size:32px;font-weight:900;letter-spacing:-3px;line-height:1;margin-right:18px;white-space:nowrap}
   .nav-links{height:58px;background:#fff;border-radius:999px;display:flex;align-items:center;gap:0;padding:0 12px;white-space:nowrap}
   .nav-links a{height:100%;display:flex;align-items:center;padding:0 24px;text-decoration:none;color:#161616;font-size:13px;font-weight:700;letter-spacing:-.25px;transition:.2s ease}
@@ -42,50 +42,20 @@
   <div class="wrap">
     <nav class="nav">
       <div class="brand">SHOE</div>
-
-      <div class="nav-links">
-        <a href="#shop">SHOP</a>
-        <a href="#about">ABOUT</a>
-        <a href="#fashion">BRAND</a>
-        <a href="#products">SALE</a>
-        <a href="#products">OUR PRODUCT
-          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m6 9 6 6 6-6"/></svg>
-        </a>
-      </div>
-
+      <div class="nav-links"><a href="#shop">SHOP</a><a href="#about">ABOUT</a><a href="#fashion">BRAND</a><a href="#products">SALE</a><a href="#products">OUR PRODUCT<svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m6 9 6 6 6-6"/></svg></a></div>
       <div class="spacer"></div>
-
-      <div class="search">
-        <span>SEARCH...</span>
-        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
-      </div>
-
-      <div class="icon" aria-label="Account">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5.5 20c.7-4 3-6 6.5-6s5.8 2 6.5 6"/></svg>
-      </div>
-
-      <div class="icon" aria-label="Cart">
-        <span class="cart-dot"></span>
-        <svg viewBox="0 0 24 24"><path d="M5 8h14l-1 11H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/><path d="M9 12v4M15 12v4"/></svg>
-      </div>
+      <div class="search"><span>SEARCH...</span><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></div>
+      <div class="icon" aria-label="Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5.5 20c.7-4 3-6 6.5-6s5.8 2 6.5 6"/></svg></div>
+      <div class="icon" aria-label="Cart"><span class="cart-dot"></span><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 11H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/><path d="M9 12v4M15 12v4"/></svg></div>
     </nav>
-
     <h1 class="hero-title">REIMAGINED<br>COMFORT</h1>
-    <div class="hero-grid" id="shop">
-      <div class="meta"><b>FROM 2024</b><div class="barcode"></div><div class="muted">Cushioned insoles experience plush support with cushioned insoles that cradle your feet in comfort supportive arch designs for optimal comfort.</div></div>
-      <div><div class="hero-card"><img src="assets/hero.png" alt="shoe"><div class="pill p1">＋ &nbsp; COMFORT</div><div class="pill p2">STYLE</div></div><div class="mini-row"><div class="mini"><img src="assets/shoe1.png" alt="shoe"></div><div class="mini words"><span>Discover the joy of shoes.</span><div class="ovals"><i></i><i></i><i></i><i></i><i></i></div></div><div class="mini"><img src="assets/shoe5.png" alt="shoe"></div></div></div>
-    </div>
+    <div class="hero-grid" id="shop"><div class="meta"><b>FROM 2024</b><div class="barcode"></div><div class="muted">Cushioned insoles experience plush support with cushioned insoles that cradle your feet in comfort supportive arch designs for optimal comfort.</div></div><div><div class="hero-card"><img src="assets/hero.png" alt="shoe"><div class="pill p1">＋ &nbsp; COMFORT</div><div class="pill p2">STYLE</div></div><div class="mini-row"><div class="mini"><img src="assets/shoe1.png" alt="shoe"></div><div class="mini words"><span>Discover the joy of shoes.</span><div class="ovals"><i></i><i></i><i></i><i></i><i></i></div></div><div class="mini"><img src="assets/shoe5.png" alt="shoe"></div></div></div></div>
   </div>
   <section id="about"><h2 class="section-title">ABOUT US</h2><div class="about-grid"><div class="about-img"><img src="assets/shoe2.png" alt="shoe"></div><div><div class="about-copy">Welcome to our footwear haven, where style seamlessly blends with comfort! Step into our footwear collection — every stride is a delightful journey.</div><a class="btn" href="#products">SHOP NOW</a></div></div></section>
   <div class="comfort"><div><h2>COMFORT<br>MEETS</h2></div><div><h4>Sustainable shopping haven awaits</h4><p>Enjoy enhanced stability and reduce fatigue with shoes featuring supportive arch designs for optimal comfort.</p></div></div>
   <section class="fashion" id="fashion"><h2 class="section-title">FASHION</h2><div class="fashion-grid"><div class="feature"><img src="assets/shoe3.png" alt="shoe"></div><div class="side-cards"><div class="side-card"><img src="assets/shoe4.png" alt="shoe"></div><div class="side-card"><img src="assets/shoe6.png" alt="shoe"></div></div></div></section>
   <section class="products" id="products"><h2 class="section-title">PRODUCT</h2><div class="products-grid">
-    <div class="product"><div class="photo"><img src="assets/shoe5.png" alt="shoe"></div><div class="name">Nitro™ 3 Running <span class="price">$159.95</span></div><div class="sub">Men's shoes</div></div>
-    <div class="product"><div class="photo"><img src="assets/shoe6.png" alt="shoe"></div><div class="name">Flyer Lite Unisex <span class="price">$150.20</span></div><div class="sub">Men's shoes</div></div>
-    <div class="product"><div class="photo"><img src="assets/shoe1.png" alt="shoe"></div><div class="name">Rider FV Sneakers <span class="price">$250.00</span></div><div class="sub">Men's shoes</div></div>
-    <div class="product"><div class="photo"><img src="assets/shoe3.png" alt="shoe"></div><div class="name">Fandom Suede Shoes <span class="price">$120.95</span></div><div class="sub">Men's shoes</div></div>
-    <div class="product"><div class="photo"><img src="assets/shoe4.png" alt="shoe"></div><div class="name">Velocity Nitro™ <span class="price">$110.30</span></div><div class="sub">Men's shoes</div></div>
-    <div class="product"><div class="photo"><img src="assets/shoe2.png" alt="shoe"></div><div class="name">Fast-Trac Apex Nitro <span class="price">$130.00</span></div><div class="sub">Men's shoes</div></div>
+    <div class="product"><div class="photo"><img src="assets/shoe5.png" alt="shoe"></div><div class="name">Nitro™ 3 Running <span class="price">$159.95</span></div><div class="sub">Men's shoes</div></div><div class="product"><div class="photo"><img src="assets/shoe6.png" alt="shoe"></div><div class="name">Flyer Lite Unisex <span class="price">$150.20</span></div><div class="sub">Men's shoes</div></div><div class="product"><div class="photo"><img src="assets/shoe1.png" alt="shoe"></div><div class="name">Rider FV Sneakers <span class="price">$250.00</span></div><div class="sub">Men's shoes</div></div><div class="product"><div class="photo"><img src="assets/shoe3.png" alt="shoe"></div><div class="name">Fandom Suede Shoes <span class="price">$120.95</span></div><div class="sub">Men's shoes</div></div><div class="product"><div class="photo"><img src="assets/shoe4.png" alt="shoe"></div><div class="name">Velocity Nitro™ <span class="price">$110.30</span></div><div class="sub">Men's shoes</div></div><div class="product"><div class="photo"><img src="assets/shoe2.png" alt="shoe"></div><div class="name">Fast-Trac Apex Nitro <span class="price">$130.00</span></div><div class="sub">Men's shoes</div></div>
   </div></section>
   <footer><div><div style="font-size:13px;color:#777;text-transform:uppercase">Reimagined comfort</div><div class="footer-big">SHOE</div></div><div class="footer-small">FROM 2024<br>REIMAGINED COMFORT<br>© ALL RIGHTS RESERVED</div></footer>
 </main>
